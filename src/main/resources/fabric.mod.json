@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kaupencourse",
+	"version": "${version}",
+	"name": "Kaupen Course 1.21",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kaupencourse/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aiq9.kaupencourse.KaupenCourse121"
+		],
+		"client": [
+			"net.aiq9.kaupencourse.KaupenCourse121Client"
+		],
+		"fabric-datagen": [
+			"net.aiq9.kaupencourse.KaupenCourse121DataGenerator"
+		]
+	},
+	"mixins": [
+		"kaupencourse.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
