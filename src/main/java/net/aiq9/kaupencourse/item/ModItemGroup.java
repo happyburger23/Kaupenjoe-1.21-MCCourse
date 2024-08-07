@@ -19,6 +19,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.FLUORITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_FLUORITE);
                         entries.add(ModItems.FLUORITE);
+                        entries.add(ModItems.CHAINSAW);
                     }).build());
 
     //block tab
