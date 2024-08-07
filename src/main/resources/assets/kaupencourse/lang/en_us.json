@@ -2,6 +2,12 @@
   "itemgroup.fluorite": "Fluorite Mod Items",
   "itemgroup.fluorite_blocks": "Fluorite Mod Blocks",
 
+  "block.kaupencourse.fluorite_block": "Fluorite Block",
+  "block.kaupencourse.fluorite_ore": "Fluorite Ore",
+  "block.kaupencourse.deepslate_fluorite_ore": "Deepslate Fluorite Ore",
+  "block.kaupencourse.nether_fluorite_ore": "Nether Fluorite Ore",
+  "block.kaupencourse.end_fluorite_ore": "End Fluorite Ore",
+
   "item.kaupencourse.fluorite": "Fluorite",
   "item.kaupencourse.raw_fluorite": "Raw Fluorite"
 }

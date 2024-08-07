@@ -1,5 +1,6 @@
 package net.aiq9.kaupencourse;
 
+import net.aiq9.kaupencourse.block.ModBlocks;
 import net.aiq9.kaupencourse.item.ModItemGroup;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class KaupenCourse121 implements ModInitializer {
 		ModItemGroup.registerItemGroup();
 
 		ModItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }
