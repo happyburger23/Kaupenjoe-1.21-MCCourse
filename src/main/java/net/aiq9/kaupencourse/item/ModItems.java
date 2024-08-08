@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item RAW_FLUORITE = registerItems("raw_fluorite", new Item(new Item.Settings()));
 
     public static final Item CHAINSAW = registerItems("chainsaw", new ChainsawItem(new Item.Settings().maxCount(1).maxDamage(32)));
+    public static final Item STRAWBERRY = registerItems("strawberry", new Item(new Item.Settings().food(ModFoodComponent.STRAWBERRY)));
 
     //ITEM REGISTRY CODE
     private static Item registerItems(String name, Item item) {
