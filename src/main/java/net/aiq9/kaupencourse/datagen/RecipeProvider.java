@@ -64,7 +64,10 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.FLUORITE_STAIRS), conditionsFromItem(ModBlocks.FLUORITE_STAIRS))
                 .offerTo(exporter, getRecipeName(ModBlocks.FLUORITE_STAIRS));
 
-        //slabs
+        //slab
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_SLAB, ModBlocks.FLUORITE_BLOCK);
+
+        //wall
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_WALL, ModBlocks.FLUORITE_BLOCK);
     }
 }

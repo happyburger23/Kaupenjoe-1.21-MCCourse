@@ -35,6 +35,11 @@
   "item.kaupencourse.fluorite_paxel": "Fluorite Paxel",
   "item.kaupencourse.fluorite_hammer": "Fluorite Hammer",
 
+  "item.kaupencourse.fluorite_helmet": "Fluorite Helmet",
+  "item.kaupencourse.fluorite_chestplate": "Fluorite Chestplate",
+  "item.kaupencourse.fluorite_leggings": "Fluorite Leggings",
+  "item.kaupencourse.fluorite_boots": "Fluorite Boots",
+
   "tooltip.kaupencourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.kaupencourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
   "tooltip.kaupencourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",

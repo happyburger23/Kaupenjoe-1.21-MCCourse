@@ -7,7 +7,6 @@ import net.aiq9.kaupencourse.item.custom.ModEffectSwordItem;
 import net.aiq9.kaupencourse.item.custom.PaxelItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -63,6 +62,24 @@ public class ModItems {
     public static final Item FLUORITE_HAMMER = registerItems("fluorite_hammer",
             new HammerItem(ModToolMaterials.FLUORITE,
                     new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 8, -3.5f))));
+
+    //armor items
+    public static final Item FLUORITE_HELMET = registerItems("fluorite_helmet",
+            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item FLUORITE_CHESTPLATE = registerItems("fluorite_chestplate",
+            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item FLUORITE_LEGGINGS = registerItems("fluorite_leggings",
+            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item FLUORITE_BOOTS = registerItems("fluorite_boots",
+            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
 
     //ITEM REGISTRY CODE
     private static Item registerItems(String name, Item item) {
