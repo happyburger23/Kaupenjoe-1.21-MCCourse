@@ -64,6 +64,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.END_FLUORITE_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_LAMP);
                     }).build());
 
     public static void registerItemGroup() {

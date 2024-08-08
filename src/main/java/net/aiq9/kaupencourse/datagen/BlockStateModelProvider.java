@@ -1,12 +1,13 @@
 package net.aiq9.kaupencourse.datagen;
 
 import net.aiq9.kaupencourse.block.ModBlocks;
+import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.client.render.model.json.ModelVariant;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 
 public class BlockStateModelProvider extends FabricModelProvider {
     public BlockStateModelProvider(FabricDataOutput output) {
@@ -32,6 +33,12 @@ public class BlockStateModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
+
+        //fluorite lamp
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.FLUORITE_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.FLUORITE_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.FLUORITE_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(FluoriteLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
 
     }
 

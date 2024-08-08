@@ -1,6 +1,7 @@
 package net.aiq9.kaupencourse.block;
 
 import net.aiq9.kaupencourse.KaupenCourse121;
+import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencourse.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -10,6 +11,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
+
+import java.util.function.ToIntFunction;
 
 public class ModBlocks {
     public static final Block FLUORITE_BLOCK = registerBlock("fluorite_block",
@@ -71,6 +74,11 @@ public class ModBlocks {
     //trapdoor
     public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+
+    //lamp block
+    public static final Block FLUORITE_LAMP = registerBlock("fluorite_lamp",
+            new FluoriteLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().luminance(state -> state.get(FluoriteLampBlock.CLICKED) ? 15 : 0)));
 
     //------------REGISTER BLOCK METHODS
     private static Block registerBlock(String name, Block block) {

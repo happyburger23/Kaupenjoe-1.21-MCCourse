@@ -1,6 +1,5 @@
 package net.aiq9.kaupencourse.block.custom;
 
-import net.aiq9.kaupencourse.item.ModItems;
 import net.aiq9.kaupencourse.util.CustomTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -11,13 +10,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.tooltip.TooltipType;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

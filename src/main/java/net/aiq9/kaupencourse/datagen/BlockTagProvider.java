@@ -32,6 +32,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.FLUORITE_WALL,
                         ModBlocks.FLUORITE_DOOR,
                         ModBlocks.FLUORITE_TRAPDOOR
+                        ModBlocks.FLUORITE_LAMP
                 );
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
