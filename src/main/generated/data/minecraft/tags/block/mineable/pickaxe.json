@@ -12,6 +12,8 @@
     "kaupencourse:fluorite_pressure_plate",
     "kaupencourse:fluorite_fence",
     "kaupencourse:fluorite_fence_gate",
-    "kaupencourse:fluorite_wall"
+    "kaupencourse:fluorite_wall",
+    "kaupencourse:fluorite_door",
+    "kaupencourse:fluorite_trapdoor"
   ]
 }

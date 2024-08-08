@@ -43,5 +43,11 @@ public class BlockStateModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CHAINSAW, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.FLUORITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FLUORITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FLUORITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FLUORITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FLUORITE_HOE, Models.HANDHELD);
     }
 }

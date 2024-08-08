@@ -26,6 +26,12 @@
   "item.kaupencourse.strawberry": "Strawberry",
   "item.kaupencourse.starlight_ashes": "Starlight Ashes",
 
+  "item.kaupencourse.fluorite_sword": "Fluorite Sword",
+  "item.kaupencourse.fluorite_pickaxe": "Fluorite Pickaxe",
+  "item.kaupencourse.fluorite_shovel": "Fluorite Shovel",
+  "item.kaupencourse.fluorite_axe": "Fluorite Axe",
+  "item.kaupencourse.fluorite_hoe": "Fluorite Hoe",
+
   "tooltip.kaupencourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.kaupencourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
   "tooltip.kaupencourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
