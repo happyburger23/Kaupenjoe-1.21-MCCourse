@@ -1,8 +1,10 @@
-// 1.21	2024-08-07T22:52:03.96275	Kaupen Course 1.21/Block Loot Tables
+// 1.21	2024-08-08T09:36:03.70265	Kaupen Course 1.21/Block Loot Tables
+f3589f5db900944c8f041437477e0e63111a7894 data/kaupencourse/loot_table/blocks/fluorite_button.json
 4e77f2488688ac0643b6c2989dd49996ff7c3291 data/kaupencourse/loot_table/blocks/fluorite_ore.json
 cf0ca1b5c2c6b3bcfe912f92a8f33802b0c67891 data/kaupencourse/loot_table/blocks/fluorite_slab.json
 f19ddb3658fe779775fc49d54e92eac48d0132e6 data/kaupencourse/loot_table/blocks/magic_block.json
 ec998bdacb34e5093581247e19329f009c3e289d data/kaupencourse/loot_table/blocks/fluorite_block.json
+0dd82c16703c61c3177e2b1a00f3acfdb68bcfbe data/kaupencourse/loot_table/blocks/fluorite_pressure_plate.json
 f0519da6b121195b61a1dcfb1838b3dc722b13a8 data/kaupencourse/loot_table/blocks/fluorite_stairs.json
 95a831ec1bf145f3d49c661889d46835455a738e data/kaupencourse/loot_table/blocks/nether_fluorite_ore.json
 696562897f8d958316fe6e9dd8d6e9de090b7a26 data/kaupencourse/loot_table/blocks/deepslate_fluorite_ore.json

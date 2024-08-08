@@ -7,6 +7,8 @@
     "kaupencourse:end_fluorite_ore",
     "kaupencourse:magic_block",
     "kaupencourse:fluorite_slab",
-    "kaupencourse:fluorite_stairs"
+    "kaupencourse:fluorite_stairs",
+    "kaupencourse:fluorite_button",
+    "kaupencourse:fluorite_pressure_plate"
   ]
 }

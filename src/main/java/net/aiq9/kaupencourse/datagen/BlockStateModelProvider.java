@@ -19,11 +19,15 @@ public class BlockStateModelProvider extends FabricModelProvider {
         fluoriteBlockPool.stairs(ModBlocks.FLUORITE_STAIRS);
         fluoriteBlockPool.slab(ModBlocks.FLUORITE_SLAB);
 
+        fluoriteBlockPool.button(ModBlocks.FLUORITE_BUTTON);
+        fluoriteBlockPool.pressurePlate(ModBlocks.FLUORITE_PRESSURE_PLATE);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
+
     }
 
     @Override

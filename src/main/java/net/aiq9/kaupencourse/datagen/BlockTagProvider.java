@@ -23,7 +23,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.END_FLUORITE_ORE,
                         ModBlocks.MAGIC_BLOCK,
                         ModBlocks.FLUORITE_SLAB,
-                        ModBlocks.FLUORITE_STAIRS
+                        ModBlocks.FLUORITE_STAIRS,
+                        ModBlocks.FLUORITE_BUTTON,
+                        ModBlocks.FLUORITE_PRESSURE_PLATE
                 );
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)

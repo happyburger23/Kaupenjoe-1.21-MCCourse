@@ -44,6 +44,14 @@ public class ModBlocks {
     public static final Block FLUORITE_SLAB = registerBlock("fluorite_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
+    //button
+    public static final Block FLUORITE_BUTTON = registerBlock("fluorite_button",
+            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool()));
+
+    //pressure plate
+    public static final Block FLUORITE_PRESSURE_PLATE = registerBlock("fluorite_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool()));
+
     //------------REGISTER BLOCK METHODS
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

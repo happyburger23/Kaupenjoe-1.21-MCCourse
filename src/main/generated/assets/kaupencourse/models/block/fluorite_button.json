@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "kaupencourse:block/fluorite_block"
+  }
+}
