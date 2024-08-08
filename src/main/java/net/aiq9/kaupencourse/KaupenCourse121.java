@@ -5,6 +5,7 @@ import net.aiq9.kaupencourse.item.ModItemGroup;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,5 +20,8 @@ public class KaupenCourse121 implements ModInitializer {
 
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
+
+		//fuel item registry
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); //log 300 ticks, coal 1600 ticks
 	}
 }

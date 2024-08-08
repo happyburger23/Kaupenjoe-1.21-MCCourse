@@ -14,11 +14,12 @@
   "item.kaupencourse.raw_fluorite": "Raw Fluorite",
   "item.kaupencourse.chainsaw": "Chainsaw",
   "item.kaupencourse.strawberry": "Strawberry",
+  "item.kaupencourse.starlight_ashes": "Starlight Ashes",
 
   "tooltip.kaupencourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.kaupencourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
   "tooltip.kaupencourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
 
-  "tooltip.kaupencourse.magic_block.tooltip.1": "This block is §9magical§r!"
-
+  "tooltip.kaupencourse.magic_block.tooltip.1": "This block is §9magical§r!",
+  "tooltip.kaupencourse.strawberry.tooltip.1": "Tastes great!"
 }

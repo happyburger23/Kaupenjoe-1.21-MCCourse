@@ -21,6 +21,7 @@ public class ModItemGroup {
                         entries.add(ModItems.FLUORITE);
                         entries.add(ModItems.CHAINSAW);
                         entries.add(ModItems.STRAWBERRY);
+                        entries.add(ModItems.STARLIGHT_ASHES);
                     }).build());
 
     //block tab
