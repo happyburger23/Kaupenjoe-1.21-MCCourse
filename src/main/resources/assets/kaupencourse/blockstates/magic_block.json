@@ -1,0 +1,8 @@
+
+{
+  "variants": {
+    "": {
+      "model": "kaupencourse:block/magic_block"
+    }
+  }
+}

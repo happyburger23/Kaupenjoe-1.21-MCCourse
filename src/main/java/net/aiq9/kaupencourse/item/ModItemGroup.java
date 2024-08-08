@@ -31,13 +31,16 @@ public class ModItemGroup {
                         entries.add(Blocks.AMETHYST_CLUSTER);
 
                         entries.add(ModBlocks.FLUORITE_BLOCK);
+
                         entries.add(ModBlocks.FLUORITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_FLUORITE_ORE);
                         entries.add(ModBlocks.NETHER_FLUORITE_ORE);
                         entries.add(ModBlocks.END_FLUORITE_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void registerItemGroup() {
-        KaupenCourse121.LOGGER.info("Registering Item Groups for" + KaupenCourse121.MOD_ID);
+        KaupenCourse121.LOGGER.info("Registering Item Groups for " + KaupenCourse121.MOD_ID);
     }
 }

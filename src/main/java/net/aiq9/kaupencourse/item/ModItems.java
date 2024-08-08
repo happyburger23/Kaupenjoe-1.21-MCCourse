@@ -28,7 +28,7 @@ public class ModItems {
     }
 
     public static void registerItems() {
-        KaupenCourse121.LOGGER.info("Registering Items for" + KaupenCourse121.MOD_ID);
+        KaupenCourse121.LOGGER.info("Registering Items for " + KaupenCourse121.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::customIngredients);
     }

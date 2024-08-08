@@ -3,6 +3,8 @@
   "itemgroup.fluorite_blocks": "Fluorite Mod Blocks",
 
   "block.kaupencourse.fluorite_block": "Fluorite Block",
+  "block.kaupencourse.magic_block": "Magic Block",
+
   "block.kaupencourse.fluorite_ore": "Fluorite Ore",
   "block.kaupencourse.deepslate_fluorite_ore": "Deepslate Fluorite Ore",
   "block.kaupencourse.nether_fluorite_ore": "Nether Fluorite Ore",
@@ -14,6 +16,8 @@
 
   "tooltip.kaupencourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.kaupencourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
-  "tooltip.kaupencourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r"
+  "tooltip.kaupencourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
+
+  "tooltip.kaupencourse.magic_block.tooltip.1": "This block is §9magical§r!"
 
 }
