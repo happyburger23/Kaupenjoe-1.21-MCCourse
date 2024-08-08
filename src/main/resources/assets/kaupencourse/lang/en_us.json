@@ -32,6 +32,9 @@
   "item.kaupencourse.fluorite_axe": "Fluorite Axe",
   "item.kaupencourse.fluorite_hoe": "Fluorite Hoe",
 
+  "item.kaupencourse.fluorite_paxel": "Fluorite Paxel",
+  "item.kaupencourse.fluorite_hammer": "Fluorite Hammer",
+
   "tooltip.kaupencourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.kaupencourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
   "tooltip.kaupencourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
