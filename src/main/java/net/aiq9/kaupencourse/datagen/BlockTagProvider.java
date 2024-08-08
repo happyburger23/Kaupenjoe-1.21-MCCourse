@@ -31,7 +31,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.FLUORITE_FENCE_GATE,
                         ModBlocks.FLUORITE_WALL,
                         ModBlocks.FLUORITE_DOOR,
-                        ModBlocks.FLUORITE_TRAPDOOR
+                        ModBlocks.FLUORITE_TRAPDOOR,
                         ModBlocks.FLUORITE_LAMP
                 );
 

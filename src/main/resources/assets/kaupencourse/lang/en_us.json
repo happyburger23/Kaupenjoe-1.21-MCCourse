@@ -27,6 +27,9 @@
   "item.kaupencourse.strawberry": "Strawberry",
   "item.kaupencourse.starlight_ashes": "Starlight Ashes",
 
+  "item.kaupencourse.metal_detector": "Metal Detector",
+  "item.kaupencourse.data_tablet": "Data Tablet",
+
   "item.kaupencourse.fluorite_sword": "Fluorite Sword",
   "item.kaupencourse.fluorite_pickaxe": "Fluorite Pickaxe",
   "item.kaupencourse.fluorite_shovel": "Fluorite Shovel",
@@ -46,5 +49,7 @@
   "tooltip.kaupencourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
 
   "tooltip.kaupencourse.magic_block.tooltip.1": "This block is §9magical§r!",
-  "tooltip.kaupencourse.strawberry.tooltip.1": "Tastes great!"
+  "tooltip.kaupencourse.strawberry.tooltip.1": "Tastes great!",
+
+  "item.kaupencourse.metal_detector.no_valuables": "No valuables here!"
 }

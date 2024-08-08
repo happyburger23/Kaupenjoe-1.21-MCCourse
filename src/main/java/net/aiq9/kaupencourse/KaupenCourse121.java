@@ -1,6 +1,7 @@
 package net.aiq9.kaupencourse;
 
 import net.aiq9.kaupencourse.block.ModBlocks;
+import net.aiq9.kaupencourse.component.ModDataComponentTypes;
 import net.aiq9.kaupencourse.item.ModItemGroup;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.aiq9.kaupencourse.util.HammerUsageEvent;
@@ -27,5 +28,7 @@ public class KaupenCourse121 implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); //log 300 ticks, coal 1600 ticks
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+
+		ModDataComponentTypes.registerComponentTypes();
 	}
 }

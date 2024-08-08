@@ -27,6 +27,9 @@ public class ModItems {
         }
     });
 
+    public static final Item METAL_DETECTOR = registerItems("metal_detector", new MetalDetectorItem(new Item.Settings().maxCount(1).maxDamage(200)));
+    public static final Item DATA_TABLET = registerItems("data_tablet", new DataTabletItem(new Item.Settings().maxCount(1)));
+
     public static final Item STARLIGHT_ASHES = registerItems("starlight_ashes", new Item(new Item.Settings()));
 
     //tools
