@@ -46,11 +46,11 @@ public class ModBlocks {
 
     //button
     public static final Block FLUORITE_BUTTON = registerBlock("fluorite_button",
-            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool()));
+            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool().noCollision()));
 
     //pressure plate
     public static final Block FLUORITE_PRESSURE_PLATE = registerBlock("fluorite_pressure_plate",
-            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool()));
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().noCollision()));
 
     //fence
     public static final Block FLUORITE_FENCE = registerBlock("fluorite_fence",
@@ -63,6 +63,14 @@ public class ModBlocks {
     //wall
     public static final Block FLUORITE_WALL = registerBlock("fluorite_wall",
             new WallBlock(AbstractBlock.Settings.create().requiresTool()));
+
+    //door
+    public static final Block FLUORITE_DOOR = registerBlock("fluorite_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+
+    //trapdoor
+    public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
 
     //------------REGISTER BLOCK METHODS
     private static Block registerBlock(String name, Block block) {

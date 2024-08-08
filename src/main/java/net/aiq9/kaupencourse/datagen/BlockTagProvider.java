@@ -41,5 +41,8 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.FLUORITE_FENCE); //connects to wooden fence
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.FLUORITE_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.FLUORITE_WALL);
+        getOrCreateTagBuilder(BlockTags.DOORS).add(ModBlocks.FLUORITE_DOOR);
+        getOrCreateTagBuilder(BlockTags.TRAPDOORS).add(ModBlocks.FLUORITE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.TRAPDOORS).add(ModBlocks.FLUORITE_TRAPDOOR);
     }
 }

@@ -18,12 +18,14 @@ public class BlockStateModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool fluoriteBlockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FLUORITE_BLOCK);
         fluoriteBlockPool.stairs(ModBlocks.FLUORITE_STAIRS);
         fluoriteBlockPool.slab(ModBlocks.FLUORITE_SLAB);
-
         fluoriteBlockPool.button(ModBlocks.FLUORITE_BUTTON);
         fluoriteBlockPool.pressurePlate(ModBlocks.FLUORITE_PRESSURE_PLATE);
         fluoriteBlockPool.fence(ModBlocks.FLUORITE_FENCE);
         fluoriteBlockPool.fenceGate(ModBlocks.FLUORITE_FENCE_GATE);
         fluoriteBlockPool.wall(ModBlocks.FLUORITE_WALL);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.FLUORITE_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.FLUORITE_TRAPDOOR);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_FLUORITE_ORE);
