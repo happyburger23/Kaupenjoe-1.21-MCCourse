@@ -2,10 +2,7 @@ package net.aiq9.kaupencourse.block;
 
 import net.aiq9.kaupencourse.KaupenCourse121;
 import net.aiq9.kaupencourse.block.custom.MagicBlock;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -38,7 +35,16 @@ public class ModBlocks {
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
 
-    //REGISTER BLOCK METHODS
+    //stairs
+    public static final Block FLUORITE_STAIRS = registerBlock("fluorite_stairs",
+            new StairsBlock(ModBlocks.FLUORITE_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    //slabs
+    public static final Block FLUORITE_SLAB = registerBlock("fluorite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    //------------REGISTER BLOCK METHODS
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
 

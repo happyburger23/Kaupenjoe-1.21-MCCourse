@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fluorite_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kaupencourse:fluorite_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fluorite_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fluorite_stairs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fluorite_stairs"
+    ]
+  }
+}

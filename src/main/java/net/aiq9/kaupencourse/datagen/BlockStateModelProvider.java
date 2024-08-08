@@ -15,7 +15,10 @@ public class BlockStateModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool fluoriteBlockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FLUORITE_BLOCK);
+        fluoriteBlockPool.stairs(ModBlocks.FLUORITE_STAIRS);
+        fluoriteBlockPool.slab(ModBlocks.FLUORITE_SLAB);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_FLUORITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_FLUORITE_ORE);

@@ -1,7 +1,6 @@
 package net.aiq9.kaupencourse.datagen;
 
 import net.aiq9.kaupencourse.block.ModBlocks;
-import net.aiq9.kaupencourse.util.CustomTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -22,7 +21,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.DEEPSLATE_FLUORITE_ORE,
                         ModBlocks.NETHER_FLUORITE_ORE,
                         ModBlocks.END_FLUORITE_ORE,
-                        ModBlocks.MAGIC_BLOCK
+                        ModBlocks.MAGIC_BLOCK,
+                        ModBlocks.FLUORITE_SLAB,
+                        ModBlocks.FLUORITE_STAIRS
                 );
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)

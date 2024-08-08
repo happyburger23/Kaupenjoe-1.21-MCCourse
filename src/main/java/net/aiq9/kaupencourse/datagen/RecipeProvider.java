@@ -11,6 +11,7 @@ import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -57,5 +58,13 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .offerTo(exporter, Identifier.of(KaupenCourse121.MOD_ID, "raw_fluorite_2"));
+
+        //stairs
+        createStairsRecipe(ModBlocks.FLUORITE_STAIRS, Ingredient.ofItems(ModBlocks.FLUORITE_BLOCK))
+                .criterion(hasItem(ModBlocks.FLUORITE_STAIRS), conditionsFromItem(ModBlocks.FLUORITE_STAIRS))
+                .offerTo(exporter, getRecipeName(ModBlocks.FLUORITE_STAIRS));
+
+        //slabs
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_SLAB, ModBlocks.FLUORITE_BLOCK);
     }
 }
