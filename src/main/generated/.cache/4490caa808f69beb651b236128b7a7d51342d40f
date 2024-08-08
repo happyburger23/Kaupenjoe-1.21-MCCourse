@@ -1,10 +1,11 @@
-// 1.21	2024-08-08T10:57:27.526433	Kaupen Course 1.21/Tags for minecraft:block
+// 1.21	2024-08-08T11:19:52.678276	Kaupen Course 1.21/Tags for minecraft:block
 a6411ebec5ed9a43b52f4d087a7912a4ad2e94b6 data/minecraft/tags/block/needs_iron_tool.json
-05bdec03593442a7721ea391e0856c0fe8dc8399 data/minecraft/tags/block/trapdoors.json
 4559565373dda9f54d00f29f16a60fc5aaedeeaa data/minecraft/tags/block/fences.json
+ae84957b8b9c18e4bcb1761317f7328c953f1e9c data/minecraft/tags/block/trapdoors.json
 23dbc8346ac71d229b453b1c97988dc8334b9e84 data/minecraft/tags/block/fence_gates.json
-4559565373dda9f54d00f29f16a60fc5aaedeeaa data/minecraft/tags/block/wooden_fences.json
 a9d28231a4d87b22dacbbf3f5c6e416bac0dcf08 data/minecraft/tags/block/mineable/pickaxe.json
+4559565373dda9f54d00f29f16a60fc5aaedeeaa data/minecraft/tags/block/wooden_fences.json
 f7e20973c8eaf8c858e2f5a5ab6b85ab02b6748e data/minecraft/tags/block/walls.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/kaupencourse/tags/block/paxel_mineable.json
 ffb226ea92a6d79444841308ea3fd33c4d14687c data/minecraft/tags/block/doors.json
 3d3209beb0dd6f257bcd42f0831878e94726455f data/minecraft/tags/block/needs_diamond_tool.json

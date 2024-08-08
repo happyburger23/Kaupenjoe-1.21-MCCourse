@@ -2,6 +2,7 @@ package net.aiq9.kaupencourse.item;
 
 import net.aiq9.kaupencourse.KaupenCourse121;
 import net.aiq9.kaupencourse.item.custom.ChainsawItem;
+import net.aiq9.kaupencourse.item.custom.PaxelItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -49,6 +50,9 @@ public class ModItems {
             new HoeItem(ModToolMaterials.FLUORITE,
                     new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 0, -3f))));
 
+    public static final Item FLUORITE_PAXEL = registerItems("fluorite_paxel",
+            new PaxelItem(ModToolMaterials.FLUORITE,
+                    new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 4, -2.5f))));
 
     //ITEM REGISTRY CODE
     private static Item registerItems(String name, Item item) {
