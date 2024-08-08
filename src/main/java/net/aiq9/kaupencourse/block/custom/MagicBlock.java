@@ -1,6 +1,7 @@
 package net.aiq9.kaupencourse.block.custom;
 
 import net.aiq9.kaupencourse.item.ModItems;
+import net.aiq9.kaupencourse.util.CustomTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -45,14 +46,21 @@ public class MagicBlock extends Block {
                 item.setStack(new ItemStack(Items.DIAMOND, item.getStack().getCount())); //gets count of item thrown on block & gives respective # of other item
             }
 
-            world.playSound(item, pos, SoundEvents.BLOCK_AMETHYST_BLOCK_FALL, SoundCategory.BLOCKS, 1f, 1f);
+            world.playSound(item, pos, SoundEvents.BLOCK_AMETHYST_BLOCK_BREAK, SoundCategory.BLOCKS, 1f, 1f);
         }
 
         super.onSteppedOn(world, pos, state, entity);
     }
 
+    /* HARDCODED LIST
     private boolean isValidItem(ItemStack stack) {
         return stack.getItem() == ModItems.FLUORITE || stack.getItem() == ModItems.RAW_FLUORITE || stack.getItem() == Items.COAL;
+    }
+    */
+
+    //List with custom tag
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(CustomTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
