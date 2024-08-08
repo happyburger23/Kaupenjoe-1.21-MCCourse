@@ -1,10 +1,7 @@
 package net.aiq9.kaupencourse.item;
 
 import net.aiq9.kaupencourse.KaupenCourse121;
-import net.aiq9.kaupencourse.item.custom.ChainsawItem;
-import net.aiq9.kaupencourse.item.custom.HammerItem;
-import net.aiq9.kaupencourse.item.custom.ModEffectSwordItem;
-import net.aiq9.kaupencourse.item.custom.PaxelItem;
+import net.aiq9.kaupencourse.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.effect.StatusEffects;
@@ -65,19 +62,19 @@ public class ModItems {
 
     //armor items
     public static final Item FLUORITE_HELMET = registerItems("fluorite_helmet",
-            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
 
     public static final Item FLUORITE_CHESTPLATE = registerItems("fluorite_chestplate",
-            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
 
     public static final Item FLUORITE_LEGGINGS = registerItems("fluorite_leggings",
-            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
 
     public static final Item FLUORITE_BOOTS = registerItems("fluorite_boots",
-            new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
 
