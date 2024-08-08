@@ -5,6 +5,8 @@
     "kaupencourse:deepslate_fluorite_ore",
     "kaupencourse:nether_fluorite_ore",
     "kaupencourse:end_fluorite_ore",
-    "kaupencourse:magic_block"
+    "kaupencourse:magic_block",
+    "kaupencourse:fluorite_slab",
+    "kaupencourse:fluorite_stairs"
   ]
 }
