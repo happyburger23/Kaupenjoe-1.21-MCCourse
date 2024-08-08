@@ -9,6 +9,9 @@
     "kaupencourse:fluorite_slab",
     "kaupencourse:fluorite_stairs",
     "kaupencourse:fluorite_button",
-    "kaupencourse:fluorite_pressure_plate"
+    "kaupencourse:fluorite_pressure_plate",
+    "kaupencourse:fluorite_fence",
+    "kaupencourse:fluorite_fence_gate",
+    "kaupencourse:fluorite_wall"
   ]
 }

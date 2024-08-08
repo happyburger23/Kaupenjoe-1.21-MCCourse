@@ -32,6 +32,9 @@ public class LoottableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FLUORITE_SLAB, slabDrops(ModBlocks.FLUORITE_SLAB));
         addDrop(ModBlocks.FLUORITE_PRESSURE_PLATE);
         addDrop(ModBlocks.FLUORITE_BUTTON);
+        addDrop(ModBlocks.FLUORITE_FENCE);
+        addDrop(ModBlocks.FLUORITE_FENCE_GATE);
+        addDrop(ModBlocks.FLUORITE_WALL);
 
         addDrop(ModBlocks.FLUORITE_ORE, oreDrops(ModBlocks.FLUORITE_ORE, ModItems.RAW_FLUORITE));
         addDrop(ModBlocks.DEEPSLATE_FLUORITE_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_FLUORITE_ORE, ModItems.RAW_FLUORITE, 2, 5));

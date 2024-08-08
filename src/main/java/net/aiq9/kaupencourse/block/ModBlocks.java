@@ -52,6 +52,18 @@ public class ModBlocks {
     public static final Block FLUORITE_PRESSURE_PLATE = registerBlock("fluorite_pressure_plate",
             new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool()));
 
+    //fence
+    public static final Block FLUORITE_FENCE = registerBlock("fluorite_fence",
+            new FenceBlock(AbstractBlock.Settings.create().requiresTool()));
+
+    //fence gate
+    public static final Block FLUORITE_FENCE_GATE = registerBlock("fluorite_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.create().requiresTool()));
+
+    //wall
+    public static final Block FLUORITE_WALL = registerBlock("fluorite_wall",
+            new WallBlock(AbstractBlock.Settings.create().requiresTool()));
+
     //------------REGISTER BLOCK METHODS
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

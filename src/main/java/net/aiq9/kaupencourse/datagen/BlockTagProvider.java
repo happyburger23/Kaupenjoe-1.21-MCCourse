@@ -25,7 +25,10 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.FLUORITE_SLAB,
                         ModBlocks.FLUORITE_STAIRS,
                         ModBlocks.FLUORITE_BUTTON,
-                        ModBlocks.FLUORITE_PRESSURE_PLATE
+                        ModBlocks.FLUORITE_PRESSURE_PLATE,
+                        ModBlocks.FLUORITE_FENCE,
+                        ModBlocks.FLUORITE_FENCE_GATE,
+                        ModBlocks.FLUORITE_WALL
                 );
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -33,5 +36,10 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.NETHER_FLUORITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.DEEPSLATE_FLUORITE_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.FLUORITE_FENCE); //connects to nether brick fence
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(ModBlocks.FLUORITE_FENCE); //connects to wooden fence
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.FLUORITE_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.FLUORITE_WALL);
     }
 }
