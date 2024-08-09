@@ -62,9 +62,20 @@
 
   "item.kaupencourse.metal_detector.no_valuables": "No valuables here!",
 
-  "sounds.kaupencourse.chainsaw_cut": "Chainsaw cuts",
-  "sounds.kaupencourse.chainsaw_pull": "Chainsaw fails to cut",
+  "sounds.kaupencourse.chainsaw_cut": "Chainsaw Sound",
+  "sounds.kaupencourse.chainsaw_pull": "Pulling Chainsaw Sound",
+
+  "sounds.kaupencourse.magic_block_break": "Magic Block broken",
+  "sounds.kaupencourse.magic_block_step": "Magic Block Step",
+  "sounds.kaupencourse.magic_block_place": "Magic Block placed",
+  "sounds.kaupencourse.magic_block_hit": "Magic Block Hit",
+  "sounds.kaupencourse.magic_block_fall": "Magic Block Fall",
 
   "kaupencourse.chainsaw_cut": "Chainsaw Cut",
-  "kaupencourse.chainsaw_pull": "Chainsaw Pull"
+  "kaupencourse.chainsaw_pull": "Chainsaw Pull",
+  "kaupencourse:magic_block_break": "Magic Block Broken",
+  "kaupencourse:magic_block_step": "Magic Block Stepped On",
+  "kaupencourse:magic_block_place": "Magic Block Placed",
+  "kaupencourse:magic_block_hit": "Magic Block Hit",
+  "kaupencourse:magic_block_fall": "Magic Block Fell On"
 }

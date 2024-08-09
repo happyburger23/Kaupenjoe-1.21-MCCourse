@@ -23,10 +23,8 @@ public class KaupenCourse121 implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroup.registerItemGroup();
-
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
-
 		ModSounds.registerSounds();
 
 		//fuel item registry

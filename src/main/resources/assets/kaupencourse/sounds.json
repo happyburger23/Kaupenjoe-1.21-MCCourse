@@ -2,13 +2,44 @@
   "chainsaw_cut": {
     "subtitle": "sounds.kaupencourse.chainsaw_cut",
     "sounds": [
-      "kaupencourse.chainsaw_cut"
+      "kaupencourse:chainsaw_cut"
     ]
   },
   "chainsaw_pull": {
     "subtitle": "sounds.kaupencourse.chainsaw_pull",
     "sounds": [
-      "kaupencourse.chainsaw_pull"
+      "kaupencourse:chainsaw_pull"
+    ]
+  },
+
+  "magic_block_break": {
+    "subtitle": "sounds.kaupencourse.magic_block_break",
+    "sounds": [
+      "kaupencourse:magic_block_break"
+    ]
+  },
+  "magic_block_step": {
+    "subtitle": "sounds.kaupencourse.magic_block_step",
+    "sounds": [
+      "kaupencourse:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "subtitle": "sounds.kaupencourse.magic_block_place",
+    "sounds": [
+      "kaupencourse:magic_block_place"
+    ]
+  },
+  "magic_block_hit": {
+    "subtitle": "sounds.kaupencourse.magic_block_hit",
+    "sounds": [
+      "kaupencourse:magic_block_hit"
+    ]
+  },
+  "magic_block_fall": {
+    "subtitle": "sounds.kaupencourse.magic_block_fall",
+    "sounds": [
+      "kaupencourse:magic_block_fall"
     ]
   }
 }

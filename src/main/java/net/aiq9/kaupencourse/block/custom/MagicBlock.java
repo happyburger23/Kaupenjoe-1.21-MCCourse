@@ -1,5 +1,6 @@
 package net.aiq9.kaupencourse.block.custom;
 
+import net.aiq9.kaupencourse.sound.ModSounds;
 import net.aiq9.kaupencourse.util.CustomTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -30,7 +31,7 @@ public class MagicBlock extends Block {
     protected ActionResult onUse(BlockState state, World world, BlockPos pos,
                                  PlayerEntity player, BlockHitResult hit) {
 
-        world.playSound(player, pos, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, SoundCategory.BLOCKS, 1f, 1f);
+        world.playSound(player, pos, ModSounds.MAGIC_BLOCK_HIT, SoundCategory.BLOCKS, 1f, 1f);
 
         return ActionResult.SUCCESS;
     }
@@ -42,7 +43,7 @@ public class MagicBlock extends Block {
                 item.setStack(new ItemStack(Items.DIAMOND, item.getStack().getCount())); //gets count of item thrown on block & gives respective # of other item
             }
 
-            world.playSound(item, pos, SoundEvents.BLOCK_AMETHYST_BLOCK_BREAK, SoundCategory.BLOCKS, 1f, 1f);
+            world.playSound(item, pos, ModSounds.MAGIC_BLOCK_STEP, SoundCategory.BLOCKS, 1f, 1f);
         }
 
         super.onSteppedOn(world, pos, state, entity);
