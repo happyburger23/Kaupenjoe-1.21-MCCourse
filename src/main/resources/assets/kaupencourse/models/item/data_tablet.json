@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kaupencourse:item/data_tablet_off"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "kaupencourse:on": 1
+      },
+      "model": "kaupencourse:item/data_tablet_on"
+    }
+  ]
+}
