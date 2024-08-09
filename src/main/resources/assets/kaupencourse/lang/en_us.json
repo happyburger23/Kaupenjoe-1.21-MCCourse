@@ -60,5 +60,11 @@
   "tooltip.kaupencourse.magic_block.tooltip.1": "This block is §9magical§r!",
   "tooltip.kaupencourse.strawberry.tooltip.1": "Tastes great!",
 
-  "item.kaupencourse.metal_detector.no_valuables": "No valuables here!"
+  "item.kaupencourse.metal_detector.no_valuables": "No valuables here!",
+
+  "sounds.kaupencourse.chainsaw_cut": "Chainsaw cuts",
+  "sounds.kaupencourse.chainsaw_pull": "Chainsaw fails to cut",
+
+  "kaupencourse.chainsaw_cut": "Chainsaw Cut",
+  "kaupencourse.chainsaw_pull": "Chainsaw Pull"
 }

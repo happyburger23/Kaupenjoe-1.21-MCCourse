@@ -1,6 +1,7 @@
 package net.aiq9.kaupencourse.item.custom;
 
 import net.aiq9.kaupencourse.component.ModDataComponentTypes;
+import net.aiq9.kaupencourse.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
@@ -9,9 +10,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.screen.ScreenHandler;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
@@ -38,6 +39,10 @@ public class ChainsawItem extends Item {
 
                 //custom data component
                 context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+
+                context.getWorld().playSound(null, context.getBlockPos(), ModSounds.CHAINSAW_CUT, SoundCategory.BLOCKS, 1f, 1f);
+            } else {
+                context.getWorld().playSound(null, context.getBlockPos(), ModSounds.CHAINSAW_PULL, SoundCategory.BLOCKS, 1f, 1f);
             }
         }
 
