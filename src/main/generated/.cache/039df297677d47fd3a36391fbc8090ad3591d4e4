@@ -1,4 +1,4 @@
-// 1.21	2024-08-08T20:04:22.628674	Kaupen Course 1.21/Block Loot Tables
+// 1.21	2024-08-08T22:58:12.880012	Kaupen Course 1.21/Block Loot Tables
 3c7fad0aeef3aab5f3cc23afd3d35ee3de494619 data/kaupencourse/loot_table/blocks/fluorite_fence_gate.json
 f3589f5db900944c8f041437477e0e63111a7894 data/kaupencourse/loot_table/blocks/fluorite_button.json
 8646a79887f326b4d06f0a4c1055bc92f3d57ae9 data/kaupencourse/loot_table/blocks/fluorite_trapdoor.json
@@ -8,6 +8,7 @@ f19ddb3658fe779775fc49d54e92eac48d0132e6 data/kaupencourse/loot_table/blocks/mag
 0dd82c16703c61c3177e2b1a00f3acfdb68bcfbe data/kaupencourse/loot_table/blocks/fluorite_pressure_plate.json
 0f2fd3cc15887e973af2a4610a2354a8f248dad0 data/kaupencourse/loot_table/blocks/fluorite_fence.json
 91828d67922c8223d9b03623239b3dd5db1bffda data/kaupencourse/loot_table/blocks/end_fluorite_ore.json
+14bfa52623145fa9aa0e8c3a9e8cf79b1e95c71d data/kaupencourse/loot_table/blocks/strawberry_crop.json
 cf0ca1b5c2c6b3bcfe912f92a8f33802b0c67891 data/kaupencourse/loot_table/blocks/fluorite_slab.json
 ec998bdacb34e5093581247e19329f009c3e289d data/kaupencourse/loot_table/blocks/fluorite_block.json
 f0519da6b121195b61a1dcfb1838b3dc722b13a8 data/kaupencourse/loot_table/blocks/fluorite_stairs.json

@@ -3,6 +3,7 @@ package net.aiq9.kaupencourse.block;
 import net.aiq9.kaupencourse.KaupenCourse121;
 import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencourse.block.custom.MagicBlock;
+import net.aiq9.kaupencourse.block.custom.StrawberryCropBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -80,7 +81,16 @@ public class ModBlocks {
             new FluoriteLampBlock(AbstractBlock.Settings.create()
                     .strength(1f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().luminance(state -> state.get(FluoriteLampBlock.CLICKED) ? 15 : 0)));
 
-    //------------REGISTER BLOCK METHODS
+    //strawberry crop block
+    public static final Block STRAWBERRY_CROP_BLOCK = registerBlockWithoutBlockItem("strawberry_crop",
+            new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    //------------ HELPER METHODS
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, Identifier.of(KaupenCourse121.MOD_ID, name),block);
+    }
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
 

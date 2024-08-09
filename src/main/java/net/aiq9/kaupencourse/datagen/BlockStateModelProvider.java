@@ -2,6 +2,7 @@ package net.aiq9.kaupencourse.datagen;
 
 import net.aiq9.kaupencourse.block.ModBlocks;
 import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
+import net.aiq9.kaupencourse.block.custom.StrawberryCropBlock;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -40,6 +41,8 @@ public class BlockStateModelProvider extends FabricModelProvider {
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.FLUORITE_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(FluoriteLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
 
+        //crop
+        blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRY_CROP_BLOCK, StrawberryCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
@@ -48,6 +51,7 @@ public class BlockStateModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_FLUORITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
         itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.STRAWBERRY_SEEDS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CHAINSAW, Models.HANDHELD);
 

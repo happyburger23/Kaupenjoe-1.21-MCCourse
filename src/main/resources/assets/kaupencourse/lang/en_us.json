@@ -21,6 +21,9 @@
   "block.kaupencourse.nether_fluorite_ore": "Nether Fluorite Ore",
   "block.kaupencourse.end_fluorite_ore": "End Fluorite Ore",
 
+  "item.kaupencourse.strawberry_crop": "Strawberry Crop",
+  "item.kaupencourse.strawberry_seeds": "Strawberry Seeds",
+
   "item.kaupencourse.fluorite": "Fluorite",
   "item.kaupencourse.raw_fluorite": "Raw Fluorite",
   "item.kaupencourse.chainsaw": "Chainsaw",
