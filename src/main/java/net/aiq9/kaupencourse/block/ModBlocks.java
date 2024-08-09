@@ -103,7 +103,7 @@ public class ModBlocks {
     public static final Block PEDESTAL = registerBlock("pedestal",
         new PedestalBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).nonOpaque()));
 
-    //------------ HELPER METHODS
+    //HELPER METHODS
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(KaupenCourse121.MOD_ID, name),block);
     }

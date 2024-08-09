@@ -9,14 +9,20 @@ import net.aiq9.kaupencourse.item.ModItems;
 import net.aiq9.kaupencourse.potion.ModPotions;
 import net.aiq9.kaupencourse.sound.ModSounds;
 import net.aiq9.kaupencourse.util.HammerUsageEvent;
+import net.aiq9.kaupencourse.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.ComposterBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
+import net.minecraft.village.TradeOffer;
+import net.minecraft.village.TradedItem;
+import net.minecraft.village.VillagerProfession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -33,6 +39,7 @@ public class KaupenCourse121 implements ModInitializer {
 		ModSounds.registerSounds();
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
+		ModVillagers.registerVillagers();
 
 		//fuel item registry
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); //log 300 ticks, coal 1600 ticks
@@ -49,6 +56,42 @@ public class KaupenCourse121 implements ModInitializer {
 		//slimey potion Brewing Stand recipe
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION);
+		});
+
+		registerCustomTrades();
+	}
+
+	private static void registerCustomTrades() {
+		TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 1, factories -> {
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 2),
+					new ItemStack(ModItems.STRAWBERRY, 6), 6, 2, 0.04f
+			));
+
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 9),
+					new ItemStack(ModItems.CHAINSAW, 1), 1, 6, 0.09f
+			));
+		});
+
+		TradeOfferHelper.registerVillagerOffers(VillagerProfession.TOOLSMITH, 2, factories -> {
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.DIAMOND, 6),
+					new ItemStack(ModItems.FLUORITE, 19), 4, 1, 0.04f
+			));
+		});
+
+		//CUSTOM VILLAGER
+		TradeOfferHelper.registerVillagerOffers(ModVillagers.KAUPENGER, 1, factories -> {
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.DIAMOND, 6),
+					new ItemStack(ModItems.RAW_FLUORITE, 19), 4, 1, 0.04f
+			));
+
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(ModItems.FLUORITE, 6),
+					new ItemStack(ModItems.SPECTRE_STAFF, 1), 1, 8, 0.04f
+			));
 		});
 	}
 }
