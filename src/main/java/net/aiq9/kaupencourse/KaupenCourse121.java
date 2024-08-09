@@ -2,11 +2,13 @@ package net.aiq9.kaupencourse;
 
 import net.aiq9.kaupencourse.block.ModBlocks;
 import net.aiq9.kaupencourse.component.ModDataComponentTypes;
+import net.aiq9.kaupencourse.events.AttackEntityHandler;
 import net.aiq9.kaupencourse.item.ModItemGroup;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.aiq9.kaupencourse.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
@@ -30,5 +32,7 @@ public class KaupenCourse121 implements ModInitializer {
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 
 		ModDataComponentTypes.registerComponentTypes();
+
+		AttackEntityCallback.EVENT.register(new AttackEntityHandler());
 	}
 }
