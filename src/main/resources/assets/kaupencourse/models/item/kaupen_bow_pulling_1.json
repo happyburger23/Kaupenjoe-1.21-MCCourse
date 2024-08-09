@@ -1,0 +1,6 @@
+{
+    "parent": "kaupencourse:item/kaupen_bow",
+    "textures": {
+        "layer0": "kaupencourse:item/kaupen_bow_pulling_1"
+    }
+}

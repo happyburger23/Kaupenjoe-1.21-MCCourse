@@ -32,6 +32,8 @@ public class ModItemGroup {
                         entries.add(ModItems.FLUORITE_PAXEL);
                         entries.add(ModItems.FLUORITE_HAMMER);
 
+                        entries.add(ModItems.KAUPEN_BOW);
+
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.DATA_TABLET);
 
