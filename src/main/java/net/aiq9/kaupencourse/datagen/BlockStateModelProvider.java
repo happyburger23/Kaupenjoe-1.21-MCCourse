@@ -46,6 +46,9 @@ public class BlockStateModelProvider extends FabricModelProvider {
 
         //dahlia flower
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAHLIA, ModBlocks.POTTED_DAHLIA, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        //colored leaves
+        blockStateModelGenerator.registerSingleton(ModBlocks.COLORED_LEAVES, TexturedModel.LEAVES);
     }
 
     @Override

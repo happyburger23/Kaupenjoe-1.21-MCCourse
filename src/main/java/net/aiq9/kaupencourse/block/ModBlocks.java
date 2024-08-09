@@ -93,6 +93,10 @@ public class ModBlocks {
     public static final Block POTTED_DAHLIA = registerBlockWithoutBlockItem("potted_dahlia",
             new FlowerPotBlock(ModBlocks.DAHLIA, AbstractBlock.Settings.copy(Blocks.POTTED_ALLIUM)));
 
+    //colored leaves
+    public static final Block COLORED_LEAVES = registerBlock("colored_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+
     //------------ HELPER METHODS
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(KaupenCourse121.MOD_ID, name),block);

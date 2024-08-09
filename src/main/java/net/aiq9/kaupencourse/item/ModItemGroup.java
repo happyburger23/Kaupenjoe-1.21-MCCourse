@@ -71,6 +71,7 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModBlocks.FLUORITE_LAMP);
+                        entries.add(ModBlocks.COLORED_LEAVES);
                         entries.add(ModBlocks.DAHLIA);
                     }).build());
 
