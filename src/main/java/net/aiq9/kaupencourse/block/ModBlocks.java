@@ -3,6 +3,7 @@ package net.aiq9.kaupencourse.block;
 import net.aiq9.kaupencourse.KaupenCourse121;
 import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencourse.block.custom.MagicBlock;
+import net.aiq9.kaupencourse.block.custom.PedestalBlock;
 import net.aiq9.kaupencourse.block.custom.StrawberryCropBlock;
 import net.aiq9.kaupencourse.sound.ModSounds;
 import net.minecraft.block.*;
@@ -97,6 +98,10 @@ public class ModBlocks {
     //colored leaves
     public static final Block COLORED_LEAVES = registerBlock("colored_leaves",
             new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+
+    //pedestal
+    public static final Block PEDESTAL = registerBlock("pedestal",
+        new PedestalBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).nonOpaque()));
 
     //------------ HELPER METHODS
     private static Block registerBlockWithoutBlockItem(String name, Block block) {

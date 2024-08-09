@@ -21,11 +21,12 @@
   "block.kaupencourse.magic_block": "Magic Block",
   "block.kaupencourse.fluorite_lamp": "Fluorite Lamp",
   "block.kaupencourse.colored_leaves": "Colored Leaves",
+  "block.kaupencourse.pedestal": "Pedestal",
 
   "block.kaupencourse.dahlia": "Dahlia",
   "block.kaupencourse.potted_dahlia": "Potted Dahlia",
 
-  "item.kaupencourse.strawberry_crop": "Strawberry Crop",
+  "block.kaupencourse.strawberry_crop": "Strawberry Crop",
   "item.kaupencourse.strawberry_seeds": "Strawberry Seeds",
 
   "item.kaupencourse.fluorite": "Fluorite",
@@ -38,6 +39,7 @@
   "item.kaupencourse.data_tablet": "Data Tablet",
   "item.kaupencourse.bar_brawl_music_disc": "Bar Brawl",
   "item.kaupencourse.kaupen_bow": "Kaupen Bow",
+  "item.kaupencourse.spectre_staff": "Spectre Staff",
 
   "item.kaupencourse.fluorite_sword": "Fluorite Sword",
   "item.kaupencourse.fluorite_pickaxe": "Fluorite Pickaxe",

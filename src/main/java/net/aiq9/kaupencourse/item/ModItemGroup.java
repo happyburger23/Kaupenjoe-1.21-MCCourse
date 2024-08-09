@@ -38,6 +38,7 @@ public class ModItemGroup {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.DATA_TABLET);
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+                        entries.add(ModItems.SPECTRE_STAFF);
 
                         entries.add(ModItems.FLUORITE_HELMET);
                         entries.add(ModItems.FLUORITE_CHESTPLATE);
@@ -73,6 +74,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModBlocks.FLUORITE_LAMP);
                         entries.add(ModBlocks.COLORED_LEAVES);
+                        entries.add(ModBlocks.PEDESTAL);
                         entries.add(ModBlocks.DAHLIA);
                     }).build());
 
