@@ -52,6 +52,10 @@ public class LoottableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.STRAWBERRY_CROP_BLOCK)
                 .properties(StatePredicate.Builder.create().exactMatch(StrawberryCropBlock.AGE, 5));
         this.addDrop(ModBlocks.STRAWBERRY_CROP_BLOCK, this.cropDrops(ModBlocks.STRAWBERRY_CROP_BLOCK, ModItems.STRAWBERRY, ModItems.STRAWBERRY_SEEDS, builder));
+
+        //flower
+        addDrop(ModBlocks.DAHLIA);
+        addDrop(ModBlocks.POTTED_DAHLIA, pottedPlantDrops(ModBlocks.DAHLIA));
     }
 
     //HELPER METHOD

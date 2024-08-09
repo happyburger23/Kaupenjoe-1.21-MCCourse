@@ -5,6 +5,7 @@ import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencourse.block.custom.MagicBlock;
 import net.aiq9.kaupencourse.block.custom.StrawberryCropBlock;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -84,6 +85,13 @@ public class ModBlocks {
     //strawberry crop block
     public static final Block STRAWBERRY_CROP_BLOCK = registerBlockWithoutBlockItem("strawberry_crop",
             new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    //dahlia flower
+    public static final Block DAHLIA = registerBlock("dahlia",
+            new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 4, AbstractBlock.Settings.copy(Blocks.ALLIUM)));
+
+    public static final Block POTTED_DAHLIA = registerBlockWithoutBlockItem("potted_dahlia",
+            new FlowerPotBlock(ModBlocks.DAHLIA, AbstractBlock.Settings.copy(Blocks.POTTED_ALLIUM)));
 
     //------------ HELPER METHODS
     private static Block registerBlockWithoutBlockItem(String name, Block block) {

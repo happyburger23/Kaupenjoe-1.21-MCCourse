@@ -2,6 +2,11 @@
   "itemgroup.fluorite": "Fluorite Mod Items",
   "itemgroup.fluorite_blocks": "Fluorite Mod Blocks",
 
+  "block.kaupencourse.fluorite_ore": "Fluorite Ore",
+  "block.kaupencourse.deepslate_fluorite_ore": "Deepslate Fluorite Ore",
+  "block.kaupencourse.nether_fluorite_ore": "Nether Fluorite Ore",
+  "block.kaupencourse.end_fluorite_ore": "End Fluorite Ore",
+
   "block.kaupencourse.fluorite_block": "Fluorite Block",
   "block.kaupencourse.fluorite_stairs": "Fluorite Stairs",
   "block.kaupencourse.fluorite_slab": "Fluorite Slab",
@@ -16,10 +21,9 @@
   "block.kaupencourse.magic_block": "Magic Block",
   "block.kaupencourse.fluorite_lamp": "Fluorite Lamp",
 
-  "block.kaupencourse.fluorite_ore": "Fluorite Ore",
-  "block.kaupencourse.deepslate_fluorite_ore": "Deepslate Fluorite Ore",
-  "block.kaupencourse.nether_fluorite_ore": "Nether Fluorite Ore",
-  "block.kaupencourse.end_fluorite_ore": "End Fluorite Ore",
+  "block.kaupencourse.dahlia": "Dahlia",
+  "block.kaupencourse.potted_dahlia": "Potted Dahlia",
+
 
   "item.kaupencourse.strawberry_crop": "Strawberry Crop",
   "item.kaupencourse.strawberry_seeds": "Strawberry Seeds",

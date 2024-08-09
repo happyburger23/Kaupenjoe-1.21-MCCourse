@@ -43,6 +43,9 @@ public class BlockStateModelProvider extends FabricModelProvider {
 
         //crop
         blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRY_CROP_BLOCK, StrawberryCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+
+        //dahlia flower
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAHLIA, ModBlocks.POTTED_DAHLIA, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

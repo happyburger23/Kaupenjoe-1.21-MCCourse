@@ -7,7 +7,6 @@ import net.aiq9.kaupencourse.item.ModItemGroup;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.aiq9.kaupencourse.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
-
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -37,6 +36,6 @@ public class KaupenCourse121 implements ModInitializer {
 		AttackEntityCallback.EVENT.register(new AttackEntityHandler());
 
 		ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModItems.STRAWBERRY, 0.5f);
-		ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModItems.STRAWBERRY, 0.25f);
+		ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModItems.STRAWBERRY_SEEDS, 0.25f);
 	}
 }
