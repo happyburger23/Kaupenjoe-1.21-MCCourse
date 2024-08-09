@@ -3,6 +3,7 @@ package net.aiq9.kaupencourse.item;
 import net.aiq9.kaupencourse.KaupenCourse121;
 import net.aiq9.kaupencourse.block.ModBlocks;
 import net.aiq9.kaupencourse.item.custom.*;
+import net.aiq9.kaupencourse.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.effect.StatusEffects;
@@ -37,6 +38,7 @@ public class ModItems {
             new BowItem(new Item.Settings().maxDamage(200)));
 
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc", new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
 
     //tools
     public static final Item FLUORITE_SWORD = registerItem("fluorite_sword",

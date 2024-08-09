@@ -41,5 +41,13 @@
     "sounds": [
       "kaupencourse:magic_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "kaupencourse:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

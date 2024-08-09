@@ -37,6 +37,7 @@ public class ModItemGroup {
 
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.DATA_TABLET);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
 
                         entries.add(ModItems.FLUORITE_HELMET);
                         entries.add(ModItems.FLUORITE_CHESTPLATE);

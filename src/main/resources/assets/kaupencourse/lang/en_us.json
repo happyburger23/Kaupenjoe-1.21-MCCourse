@@ -25,7 +25,6 @@
   "block.kaupencourse.dahlia": "Dahlia",
   "block.kaupencourse.potted_dahlia": "Potted Dahlia",
 
-
   "item.kaupencourse.strawberry_crop": "Strawberry Crop",
   "item.kaupencourse.strawberry_seeds": "Strawberry Seeds",
 
@@ -37,6 +36,7 @@
 
   "item.kaupencourse.metal_detector": "Metal Detector",
   "item.kaupencourse.data_tablet": "Data Tablet",
+  "item.kaupencourse.bar_brawl_music_disc": "Bar Brawl",
   "item.kaupencourse.kaupen_bow": "Kaupen Bow",
 
   "item.kaupencourse.fluorite_sword": "Fluorite Sword",
@@ -64,7 +64,6 @@
 
   "sounds.kaupencourse.chainsaw_cut": "Chainsaw Sound",
   "sounds.kaupencourse.chainsaw_pull": "Pulling Chainsaw Sound",
-
   "sounds.kaupencourse.magic_block_break": "Magic Block broken",
   "sounds.kaupencourse.magic_block_step": "Magic Block Step",
   "sounds.kaupencourse.magic_block_place": "Magic Block placed",
@@ -77,5 +76,9 @@
   "kaupencourse:magic_block_step": "Magic Block Stepped On",
   "kaupencourse:magic_block_place": "Magic Block Placed",
   "kaupencourse:magic_block_hit": "Magic Block Hit",
-  "kaupencourse:magic_block_fall": "Magic Block Fell On"
+  "kaupencourse:magic_block_fall": "Magic Block Fell On",
+
+  "kaupencourse.bar_brawl": "Bar Brawl",
+  "sounds.kaupencourse.bar_brawl": "Bar Brawl is playing",
+  "item.kaupencourse.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)"
 }
