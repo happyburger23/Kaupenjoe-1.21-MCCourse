@@ -11,6 +11,7 @@ import net.aiq9.kaupencourse.potion.ModPotions;
 import net.aiq9.kaupencourse.sound.ModSounds;
 import net.aiq9.kaupencourse.util.HammerUsageEvent;
 import net.aiq9.kaupencourse.villager.ModVillagers;
+import net.aiq9.kaupencourse.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
@@ -34,7 +35,7 @@ public class KaupenCourse121 implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
-		ModItemGroup.registerItemGroup();
+		ModItemGroup.registerItemGroups();
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
 		ModSounds.registerSounds();
@@ -61,6 +62,8 @@ public class KaupenCourse121 implements ModInitializer {
 		});
 
 		registerCustomTrades();
+
+		ModWorldGen.modWorldGeneration();
 	}
 
 	private static void registerCustomTrades() {

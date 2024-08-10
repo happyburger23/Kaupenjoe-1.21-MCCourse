@@ -15,6 +15,7 @@
     "kaupencourse:fluorite_wall",
     "kaupencourse:fluorite_door",
     "kaupencourse:fluorite_trapdoor",
-    "kaupencourse:fluorite_lamp"
+    "kaupencourse:fluorite_lamp",
+    "kaupencourse:pedestal"
   ]
 }

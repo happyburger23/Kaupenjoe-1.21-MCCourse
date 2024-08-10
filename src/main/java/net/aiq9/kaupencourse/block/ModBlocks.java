@@ -16,73 +16,69 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
-import java.util.function.ToIntFunction;
-
 public class ModBlocks {
     public static final Block FLUORITE_BLOCK = registerBlock("fluorite_block",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                    .strength(4f).requiresTool()));
+            new Block(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block FLUORITE_ORE = registerBlock("fluorite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
-                    AbstractBlock.Settings.create().strength(5f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(5f)));
 
     public static final Block DEEPSLATE_FLUORITE_ORE = registerBlock("deepslate_fluorite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
-                    AbstractBlock.Settings.create().strength(6f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(6f)));
 
     public static final Block NETHER_FLUORITE_ORE = registerBlock("nether_fluorite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(1, 5),
-                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(3f)));
 
     public static final Block END_FLUORITE_ORE = registerBlock("end_fluorite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
-                    AbstractBlock.Settings.create().strength(7f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(7f)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().strength(1f).sounds(ModSounds.MAGIC_BLOCK_SOUNDS).requiresTool()));
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     //stairs
     public static final Block FLUORITE_STAIRS = registerBlock("fluorite_stairs",
             new StairsBlock(ModBlocks.FLUORITE_BLOCK.getDefaultState(),
-                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+                    AbstractBlock.Settings.copy(ModBlocks.FLUORITE_BLOCK)));
 
     //slabs
     public static final Block FLUORITE_SLAB = registerBlock("fluorite_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new SlabBlock(AbstractBlock.Settings.copy(ModBlocks.FLUORITE_BLOCK)));
 
     //button
     public static final Block FLUORITE_BUTTON = registerBlock("fluorite_button",
-            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool().noCollision()));
+            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.copy(Blocks.STONE_BUTTON).noCollision()));
 
     //pressure plate
     public static final Block FLUORITE_PRESSURE_PLATE = registerBlock("fluorite_pressure_plate",
-            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().noCollision()));
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE).noCollision()));
 
     //fence
     public static final Block FLUORITE_FENCE = registerBlock("fluorite_fence",
-            new FenceBlock(AbstractBlock.Settings.create().requiresTool()));
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.OAK_FENCE)));
 
     //fence gate
     public static final Block FLUORITE_FENCE_GATE = registerBlock("fluorite_fence_gate",
-            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.create().requiresTool()));
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_FENCE_GATE)));
 
     //wall
     public static final Block FLUORITE_WALL = registerBlock("fluorite_wall",
-            new WallBlock(AbstractBlock.Settings.create().requiresTool()));
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.COBBLESTONE_WALL)));
 
     //door
     public static final Block FLUORITE_DOOR = registerBlock("fluorite_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(Blocks.COPPER_DOOR).nonOpaque()));
 
     //trapdoor
     public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(Blocks.COPPER_TRAPDOOR).nonOpaque()));
 
     //lamp block
     public static final Block FLUORITE_LAMP = registerBlock("fluorite_lamp",
-            new FluoriteLampBlock(AbstractBlock.Settings.create()
-                    .strength(1f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().luminance(state -> state.get(FluoriteLampBlock.CLICKED) ? 15 : 0)));
+            new FluoriteLampBlock(AbstractBlock.Settings.copy(Blocks.REDSTONE_LAMP).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(state -> state.get(FluoriteLampBlock.CLICKED) ? 15 : 0)));
 
     //strawberry crop block
     public static final Block STRAWBERRY_CROP_BLOCK = registerBlockWithoutBlockItem("strawberry_crop",
@@ -107,7 +103,6 @@ public class ModBlocks {
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(KaupenCourse121.MOD_ID, name),block);
     }
-
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
