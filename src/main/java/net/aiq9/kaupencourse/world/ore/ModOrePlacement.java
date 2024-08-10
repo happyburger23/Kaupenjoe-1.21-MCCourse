@@ -13,9 +13,10 @@ public class ModOrePlacement {
         return modifiers(CountPlacementModifier.of(count), heightModifier);
     }
 
-/*
+
+    /*
     public static List<PlacementModifier> modifiersWithRarity(int chance, PlacementModifier heightModifier) {
         return modifiers(RarityFilterPlacementModifier.of(chance), heightModifier);
     }
-*/
+     */
 }

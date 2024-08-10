@@ -1,10 +1,10 @@
-// 1.21	2024-08-10T13:22:20.496616	Kaupen Course 1.21/Tags for minecraft:block
+// 1.21	2024-08-10T14:19:25.71472	Kaupen Course 1.21/Tags for minecraft:block
 a6411ebec5ed9a43b52f4d087a7912a4ad2e94b6 data/minecraft/tags/block/needs_iron_tool.json
 4559565373dda9f54d00f29f16a60fc5aaedeeaa data/minecraft/tags/block/fences.json
 6af1099f95d8d0627edf0c1562c6b1245f43489d data/minecraft/tags/block/mineable/pickaxe.json
 71284b0942b10ea772d1902caaed5d67157e641d data/minecraft/tags/block/small_flowers.json
-ffb226ea92a6d79444841308ea3fd33c4d14687c data/minecraft/tags/block/doors.json
 3d3209beb0dd6f257bcd42f0831878e94726455f data/minecraft/tags/block/needs_diamond_tool.json
+ffb226ea92a6d79444841308ea3fd33c4d14687c data/minecraft/tags/block/doors.json
 a06eafe8d9e199aaf97fcd2047d26158647cf716 data/minecraft/tags/block/mineable/axe.json
 ae84957b8b9c18e4bcb1761317f7328c953f1e9c data/minecraft/tags/block/trapdoors.json
 596602d72cc1c38c897545b453a562ea44b13796 data/minecraft/tags/block/logs_that_burn.json
