@@ -115,7 +115,7 @@ public class ModBlocks {
             new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
 
     public static final Block BLACKWOOD_SAPLING = registerBlock("blackwood_sapling",
-            new ModSaplingBlock(ModSaplingGenerators.BLACKWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING), Blocks.END_STONE));
+            new SaplingBlock(ModSaplingGenerators.BLACKWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
     //can also use SaplingBlock for regular tree things
     /*
     new ModSaplingBlock(... .Blocks.Blocks.END_STONE)

@@ -49,7 +49,7 @@ public class ModConfiguredFeatures {
                 //remove dirtProvider() for vanilla behavior:
                 //
                 // .dirtProvider(BlockStateProvider.of(Blocks.END_STONE))
-                new TwoLayersFeatureSize(1, 0, 2)).dirtProvider(BlockStateProvider.of(Blocks.END_STONE)).build());
+                new TwoLayersFeatureSize(1, 0, 2)).build());
 
         // ORE GEN (& Rule Test)
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);

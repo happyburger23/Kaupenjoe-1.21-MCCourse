@@ -1,6 +1,7 @@
 package net.aiq9.kaupencourse;
 
 import net.aiq9.kaupencourse.block.ModBlocks;
+import net.aiq9.kaupencourse.block.entity.ModBlockEntities;
 import net.aiq9.kaupencourse.component.ModDataComponentTypes;
 import net.aiq9.kaupencourse.effect.ModEffects;
 import net.aiq9.kaupencourse.events.AttackEntityHandler;
@@ -45,6 +46,7 @@ public class KaupenCourse121 implements ModInitializer {
 		ModPotions.registerPotions();
 		ModVillagers.registerVillagers();
 		ModFluids.registerFluids();
+		ModBlockEntities.registerBlockEntities();
 
 		//fuel item registry
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); //log 300 ticks, coal 1600 ticks
