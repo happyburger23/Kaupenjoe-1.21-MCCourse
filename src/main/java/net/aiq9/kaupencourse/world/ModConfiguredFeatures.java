@@ -46,7 +46,10 @@ public class ModConfiguredFeatures {
                 new CherryFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), ConstantIntProvider.create(5), //radius' for leaves
                         0.25f, 0.5f, 0.15f, 0.05f),
 
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                //remove dirtProvider() for vanilla behavior:
+                //
+                // .dirtProvider(BlockStateProvider.of(Blocks.END_STONE))
+                new TwoLayersFeatureSize(1, 0, 2)).dirtProvider(BlockStateProvider.of(Blocks.END_STONE)).build());
 
         // ORE GEN (& Rule Test)
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);

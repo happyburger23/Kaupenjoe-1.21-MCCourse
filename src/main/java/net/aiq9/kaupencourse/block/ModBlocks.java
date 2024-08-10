@@ -1,10 +1,7 @@
 package net.aiq9.kaupencourse.block;
 
 import net.aiq9.kaupencourse.KaupenCourse121;
-import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
-import net.aiq9.kaupencourse.block.custom.MagicBlock;
-import net.aiq9.kaupencourse.block.custom.PedestalBlock;
-import net.aiq9.kaupencourse.block.custom.StrawberryCropBlock;
+import net.aiq9.kaupencourse.block.custom.*;
 import net.aiq9.kaupencourse.sound.ModSounds;
 import net.aiq9.kaupencourse.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
@@ -118,7 +115,11 @@ public class ModBlocks {
             new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
 
     public static final Block BLACKWOOD_SAPLING = registerBlock("blackwood_sapling",
-            new SaplingBlock(ModSaplingGenerators.BLACKWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+            new ModSaplingBlock(ModSaplingGenerators.BLACKWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING), Blocks.END_STONE));
+    //can also use SaplingBlock for regular tree things
+    /*
+    new ModSaplingBlock(... .Blocks.Blocks.END_STONE)
+     */
 
     //HELPER METHODS
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
