@@ -15,5 +15,6 @@ public class KaupenCourse121DataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(LoottableProvider::new);
 		pack.addProvider(RecipeProvider::new);
 		pack.addProvider(ModPOITagProvider::new);
+		pack.addProvider(ModFluidTagProvider::new);
 	}
 }

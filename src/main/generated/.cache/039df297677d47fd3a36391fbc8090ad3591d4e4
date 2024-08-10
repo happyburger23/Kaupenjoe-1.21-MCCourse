@@ -1,4 +1,4 @@
-// 1.21	2024-08-09T17:43:28.65181	Kaupen Course 1.21/Block Loot Tables
+// 1.21	2024-08-09T19:43:55.565083	Kaupen Course 1.21/Block Loot Tables
 3c7fad0aeef3aab5f3cc23afd3d35ee3de494619 data/kaupencourse/loot_table/blocks/fluorite_fence_gate.json
 f3589f5db900944c8f041437477e0e63111a7894 data/kaupencourse/loot_table/blocks/fluorite_button.json
 8646a79887f326b4d06f0a4c1055bc92f3d57ae9 data/kaupencourse/loot_table/blocks/fluorite_trapdoor.json
@@ -14,7 +14,7 @@ ec82f2e9df1641e18e82f1c106a7f12afc86ffd5 data/kaupencourse/loot_table/blocks/dah
 cf0ca1b5c2c6b3bcfe912f92a8f33802b0c67891 data/kaupencourse/loot_table/blocks/fluorite_slab.json
 ec998bdacb34e5093581247e19329f009c3e289d data/kaupencourse/loot_table/blocks/fluorite_block.json
 f0519da6b121195b61a1dcfb1838b3dc722b13a8 data/kaupencourse/loot_table/blocks/fluorite_stairs.json
-d474441e077a2b94cbe33d003a70ddd5fa68f9e0 data/kaupencourse/loot_table/blocks/fluorite_lamp.json
 95a831ec1bf145f3d49c661889d46835455a738e data/kaupencourse/loot_table/blocks/nether_fluorite_ore.json
+d474441e077a2b94cbe33d003a70ddd5fa68f9e0 data/kaupencourse/loot_table/blocks/fluorite_lamp.json
 4c0d73878c6849c1f1dde61fae744876d38efe85 data/kaupencourse/loot_table/blocks/fluorite_wall.json
 696562897f8d958316fe6e9dd8d6e9de090b7a26 data/kaupencourse/loot_table/blocks/deepslate_fluorite_ore.json

@@ -3,10 +3,10 @@ package net.aiq9.kaupencourse.datagen;
 import net.aiq9.kaupencourse.block.ModBlocks;
 import net.aiq9.kaupencourse.block.custom.FluoriteLampBlock;
 import net.aiq9.kaupencourse.block.custom.StrawberryCropBlock;
+import net.aiq9.kaupencourse.fluid.ModFluids;
 import net.aiq9.kaupencourse.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.client.render.model.json.ModelVariant;
 import net.minecraft.data.client.*;
 import net.minecraft.util.Identifier;
 
@@ -59,6 +59,7 @@ public class BlockStateModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
         //itemModelGenerator.register(ModItems.STRAWBERRY_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModFluids.FLUORITE_WATER_BUCKET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CHAINSAW, Models.HANDHELD);
 

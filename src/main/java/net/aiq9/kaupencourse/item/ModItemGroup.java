@@ -2,6 +2,7 @@ package net.aiq9.kaupencourse.item;
 
 import net.aiq9.kaupencourse.KaupenCourse121;
 import net.aiq9.kaupencourse.block.ModBlocks;
+import net.aiq9.kaupencourse.fluid.ModFluids;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -39,6 +40,7 @@ public class ModItemGroup {
                         entries.add(ModItems.DATA_TABLET);
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                         entries.add(ModItems.SPECTRE_STAFF);
+                        entries.add(ModFluids.FLUORITE_WATER_BUCKET);
 
                         entries.add(ModItems.FLUORITE_HELMET);
                         entries.add(ModItems.FLUORITE_CHESTPLATE);

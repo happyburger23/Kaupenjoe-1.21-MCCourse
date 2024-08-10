@@ -1,4 +1,4 @@
-// 1.21	2024-08-09T17:43:28.658722	Kaupen Course 1.21/Model Definitions
+// 1.21	2024-08-09T19:43:55.577154	Kaupen Course 1.21/Model Definitions
 048f147c63492a0a8420d677d33cacfc530ff496 assets/kaupencourse/models/item/fluorite_stairs.json
 3b0253730445643029ad391aabaf32984cdc380b assets/kaupencourse/models/block/fluorite_fence_post.json
 06b6b88f090a0fc1a79d6685729e44a7b2945eb5 assets/kaupencourse/blockstates/fluorite_lamp.json
@@ -24,8 +24,8 @@ c886c48652afa9bfd0f9d089f3243ffb0ae0157a assets/kaupencourse/models/block/fluori
 fd357063d8562e91b9c14c2bb9cb0544180720c4 assets/kaupencourse/models/item/fluorite_axe.json
 0bc1014f1d57292eb874c7ac25bd6403b0e91a55 assets/kaupencourse/blockstates/fluorite_fence.json
 aba6483fe7c7b3d3a70860cc0997af8a19b3835b assets/kaupencourse/models/block/fluorite_trapdoor_bottom.json
-8403def4bc1f910c390ecadb1566c25cd1ceb185 assets/kaupencourse/models/block/fluorite_block.json
 69dd34753a8267d65973a16752de9aff14bc21a2 assets/kaupencourse/models/block/fluorite_button_pressed.json
+8403def4bc1f910c390ecadb1566c25cd1ceb185 assets/kaupencourse/models/block/fluorite_block.json
 8c9b49cbbf624e66e9243275c163e497ced5a5bb assets/kaupencourse/models/item/fluorite_hammer.json
 54af8dba04a394cd5345f84abd58b0f623c9a3e3 assets/kaupencourse/models/item/raw_fluorite.json
 c065ef404637abd63c2cb6a7bbd01c75d26a8f06 assets/kaupencourse/blockstates/fluorite_button.json
@@ -63,8 +63,8 @@ f54ae889532792991cf0630c7e9e1cd358e99a0c assets/kaupencourse/blockstates/fluorit
 7820f025beaed5c835553a97e1811a66fb7834af assets/kaupencourse/models/block/fluorite_wall_side_tall.json
 642e4136d327a49a35a80a29f5f0e6f742ca6fc9 assets/kaupencourse/models/block/fluorite_wall_inventory.json
 ac325f28967a5f95b6b5c30a32076629c22a9cb2 assets/kaupencourse/models/item/bar_brawl_music_disc.json
-5c8080978f42033009e7eb4a21a753486ba7ac7f assets/kaupencourse/models/block/fluorite_lamp.json
 8e128b1dd81cda63cde965adaac6fff49b21866d assets/kaupencourse/models/block/fluorite_slab.json
+5c8080978f42033009e7eb4a21a753486ba7ac7f assets/kaupencourse/models/block/fluorite_lamp.json
 c80adaccd7d9cee08cfc1bbf4c5571be9bbe3c69 assets/kaupencourse/models/item/fluorite_paxel.json
 3ea506e92a1db00ee7fa0e447b766ff626f42bf3 assets/kaupencourse/models/block/strawberry_crop_stage1.json
 6cbe89cf562ba7904834563a0aca27a1049dbecc assets/kaupencourse/models/item/fluorite_block.json
@@ -94,6 +94,7 @@ c6230fe044c1d7fc0e6a2663561f1edf577034a4 assets/kaupencourse/blockstates/deepsla
 33b63f69308b6fde8eab15b4ee40b52b34dbe977 assets/kaupencourse/models/item/strawberry_seeds.json
 2cb3e7e51c2932a4cb4d38e3dc25f51ebaffaaf7 assets/kaupencourse/models/block/strawberry_crop_stage4.json
 1a92d2f36bb2d384d4d45325373cdfaa5bc216eb assets/kaupencourse/models/block/potted_dahlia.json
+bf43436057cc46fca1526a514e0083c19953748a assets/kaupencourse/models/item/fluorite_water_bucket.json
 1f30af50517c832ab2fabe1f23b7ac07142b79e3 assets/kaupencourse/models/block/fluorite_pressure_plate.json
 74fa2ed307bf578279f8cd7d56a2c75ecced85c8 assets/kaupencourse/models/item/deepslate_fluorite_ore.json
 69dbe26aaf4dcef52e91fb9cc0c4c5aec370b7c8 assets/kaupencourse/models/item/fluorite_pickaxe.json
