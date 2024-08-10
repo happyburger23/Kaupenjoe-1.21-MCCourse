@@ -68,7 +68,7 @@ public class KaupenCourse121 implements ModInitializer {
 		ModWorldGen.generateModWorldGeneration();
 
 		registerStrippables();
-		registerFlamables();
+		registerFlammables();
 	}
 
 	private static void registerStrippables() {
@@ -76,7 +76,7 @@ public class KaupenCourse121 implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.BLACKWOOD_WOOD, ModBlocks.STRIPPED_BLACKWOOD_WOOD);
 	}
 
-	private static void registerFlamables() {
+	private static void registerFlammables() {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLACKWOOD_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLACKWOOD_WOOD, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BLACKWOOD_LOG, 5, 5);

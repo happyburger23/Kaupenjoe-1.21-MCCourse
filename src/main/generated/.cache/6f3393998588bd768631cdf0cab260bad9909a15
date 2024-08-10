@@ -1,3 +1,9 @@
-// 1.21	2024-08-10T12:10:27.826752	Kaupen Course 1.21/World Gen
+// 1.21	2024-08-10T13:22:20.497913	Kaupen Course 1.21/World Gen
+e3b92df75090df24c10c8a96463f6b1cd08e8049 data/kaupencourse/worldgen/configured_feature/end_fluorite_ore.json
 87ba7db7bb1de7195b3f5f91884ea95683bd6aa0 data/kaupencourse/worldgen/placed_feature/blackwood_placed.json
+c9670580679897f9a918095b283e1974fca13628 data/kaupencourse/worldgen/configured_feature/nether_fluorite_ore.json
+f313b529a1a5368be2a08cacf9964e059db89a8f data/kaupencourse/worldgen/placed_feature/end_fluorite_ore_placed.json
 75e159899677275f07adf4c69637a9c13bfa13ac data/kaupencourse/worldgen/configured_feature/blackwood.json
+2ca433093145e10b353b9757923d7639a060fb04 data/kaupencourse/worldgen/configured_feature/fluorite_ore.json
+9b818bc22f1513e4e0df2cb6bca1280f74773f19 data/kaupencourse/worldgen/placed_feature/nether_fluorite_ore_placed.json
+0667c182f8f4480595a98760dc082f609d90ee2d data/kaupencourse/worldgen/placed_feature/fluorite_ore_placed.json
