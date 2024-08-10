@@ -69,6 +69,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.NETHER_FLUORITE_ORE);
                         entries.add(ModBlocks.END_FLUORITE_ORE);
 
+                        entries.add(ModBlocks.BLACKWOOD_LOG);
+                        entries.add(ModBlocks.BLACKWOOD_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BLACKWOOD_LOG);
+                        entries.add(ModBlocks.STRIPPED_BLACKWOOD_WOOD);
+                        entries.add(ModBlocks.BLACKWOOD_PLANKS);
+                        entries.add(ModBlocks.BLACKWOOD_LEAVES);
+                        entries.add(ModBlocks.BLACKWOOD_SAPLING);
+
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModBlocks.FLUORITE_LAMP);
                         entries.add(ModBlocks.COLORED_LEAVES);

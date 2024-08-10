@@ -29,7 +29,7 @@ public abstract class FluoriteWaterFluid extends FlowableFluid {
 
     @Override
     protected boolean isInfinite(World world) {
-        return false;
+        return true;
     }
 
     @Override

@@ -6,6 +6,7 @@ import net.aiq9.kaupencourse.block.custom.MagicBlock;
 import net.aiq9.kaupencourse.block.custom.PedestalBlock;
 import net.aiq9.kaupencourse.block.custom.StrawberryCropBlock;
 import net.aiq9.kaupencourse.sound.ModSounds;
+import net.aiq9.kaupencourse.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -98,6 +99,26 @@ public class ModBlocks {
     //pedestal
     public static final Block PEDESTAL = registerBlock("pedestal",
         new PedestalBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).nonOpaque()));
+
+    //blackwood tree stuff
+    public static final Block BLACKWOOD_LOG = registerBlock("blackwood_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block BLACKWOOD_WOOD = registerBlock("blackwood_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+
+    public static final Block STRIPPED_BLACKWOOD_LOG = registerBlock("stripped_blackwood_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_BLACKWOOD_WOOD = registerBlock("stripped_blackwood_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+
+    public static final Block BLACKWOOD_PLANKS = registerBlock("blackwood_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
+    public static final Block BLACKWOOD_LEAVES = registerBlock("blackwood_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+
+    public static final Block BLACKWOOD_SAPLING = registerBlock("blackwood_sapling",
+            new SaplingBlock(ModSaplingGenerators.BLACKWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
 
     //HELPER METHODS
     private static Block registerBlockWithoutBlockItem(String name, Block block) {

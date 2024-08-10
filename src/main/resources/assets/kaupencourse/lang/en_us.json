@@ -32,6 +32,14 @@
   "block.kaupencourse.fluorite_door": "Fluorite Door",
   "block.kaupencourse.fluorite_trapdoor": "Fluorite Trapdoor",
 
+  "block.kaupencourse.blackwood_log": "Blackwood Log",
+  "block.kaupencourse.blackwood_wood": "Blackwood Log",
+  "block.kaupencourse.stripped_blackwood_log": "Stripped Blackwood Log",
+  "block.kaupencourse.stripped_blackwood_wood": "Stripped Blackwood Log",
+  "block.kaupencourse.blackwood_planks": "Blackwood Planks",
+  "block.kaupencourse.blackwood_leaves": "Blackwood Leaves",
+  "block.kaupencourse.blackwood_sapling": "Blackwood Sapling",
+
   "block.kaupencourse.magic_block": "Magic Block",
   "block.kaupencourse.fluorite_lamp": "Fluorite Lamp",
   "block.kaupencourse.colored_leaves": "Colored Leaves",

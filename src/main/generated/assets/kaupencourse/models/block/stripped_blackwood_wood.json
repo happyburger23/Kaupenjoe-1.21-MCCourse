@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kaupencourse:block/stripped_blackwood_log",
+    "side": "kaupencourse:block/stripped_blackwood_log"
+  }
+}

@@ -56,5 +56,20 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.SHOVEL_MINEABLE)
         ;
 
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BLACKWOOD_LOG)
+                .add(ModBlocks.BLACKWOOD_WOOD)
+                .add(ModBlocks.STRIPPED_BLACKWOOD_LOG)
+                .add(ModBlocks.STRIPPED_BLACKWOOD_WOOD)
+        ;
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.BLACKWOOD_LOG)
+                .add(ModBlocks.BLACKWOOD_WOOD)
+                .add(ModBlocks.STRIPPED_BLACKWOOD_LOG)
+                .add(ModBlocks.STRIPPED_BLACKWOOD_WOOD)
+                .add(ModBlocks.BLACKWOOD_PLANKS)
+        ;
+
     }
 }

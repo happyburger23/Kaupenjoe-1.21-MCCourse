@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "kaupencourse:block/blackwood_leaves"
+  }
+}
