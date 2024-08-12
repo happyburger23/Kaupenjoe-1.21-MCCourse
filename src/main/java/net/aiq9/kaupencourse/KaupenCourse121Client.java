@@ -3,6 +3,10 @@ package net.aiq9.kaupencourse;
 import net.aiq9.kaupencourse.block.ModBlocks;
 import net.aiq9.kaupencourse.block.entity.ModBlockEntities;
 import net.aiq9.kaupencourse.block.entity.renderer.PedestalBlockEntityRenderer;
+import net.aiq9.kaupencourse.entity.ModEntities;
+import net.aiq9.kaupencourse.entity.client.DodoModel;
+import net.aiq9.kaupencourse.entity.client.DodoRenderer;
+import net.aiq9.kaupencourse.entity.client.ModEntityModelLayers;
 import net.aiq9.kaupencourse.fluid.ModFluids;
 import net.aiq9.kaupencourse.util.ModModelPredicates;
 import net.fabricmc.api.ClientModInitializer;
@@ -10,6 +14,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
@@ -43,5 +49,9 @@ public class KaupenCourse121Client implements ClientModInitializer {
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_FLUORITE_WATER, ModFluids.FLOWING_FLUORITE_WATER, SimpleFluidRenderHandler.coloredWater(0xA1E038D0));
 
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_FLUORITE_WATER, ModFluids.FLOWING_FLUORITE_WATER);
+
+        //entities
+        EntityModelLayerRegistry.registerModelLayer(ModEntityModelLayers.DODO, DodoModel::getTexturedModelData);
+        EntityRendererRegistry.register(ModEntities.DODO, DodoRenderer::new);
     }
 }

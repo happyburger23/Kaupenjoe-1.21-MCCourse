@@ -4,6 +4,8 @@ import net.aiq9.kaupencourse.block.ModBlocks;
 import net.aiq9.kaupencourse.block.entity.ModBlockEntities;
 import net.aiq9.kaupencourse.component.ModDataComponentTypes;
 import net.aiq9.kaupencourse.effect.ModEffects;
+import net.aiq9.kaupencourse.entity.ModEntities;
+import net.aiq9.kaupencourse.entity.custom.DodoEntity;
 import net.aiq9.kaupencourse.events.AttackEntityHandler;
 import net.aiq9.kaupencourse.fluid.ModFluids;
 import net.aiq9.kaupencourse.item.ModItemGroup;
@@ -16,6 +18,7 @@ import net.aiq9.kaupencourse.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -71,6 +74,15 @@ public class KaupenCourse121 implements ModInitializer {
 
 		registerStrippables();
 		registerFlammables();
+
+
+		//Dodo Entity
+		ModEntities.registerEntities();
+		registerDodoAttributes();
+	}
+
+	private static void registerDodoAttributes() {
+		FabricDefaultAttributeRegistry.register(ModEntities.DODO, DodoEntity.createDodoAttributes());
 	}
 
 	private static void registerStrippables() {

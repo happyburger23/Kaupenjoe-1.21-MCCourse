@@ -41,6 +41,8 @@ public class ModItemGroup {
                         entries.add(ModItems.SPECTRE_STAFF);
                         entries.add(ModFluids.FLUORITE_WATER_BUCKET);
 
+                        entries.add(ModItems.DODO_SPAWN_EGG);
+
                         entries.add(ModItems.FLUORITE_HELMET);
                         entries.add(ModItems.FLUORITE_CHESTPLATE);
                         entries.add(ModItems.FLUORITE_LEGGINGS);

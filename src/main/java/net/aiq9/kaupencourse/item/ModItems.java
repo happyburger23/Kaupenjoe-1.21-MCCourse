@@ -2,6 +2,7 @@ package net.aiq9.kaupencourse.item;
 
 import net.aiq9.kaupencourse.KaupenCourse121;
 import net.aiq9.kaupencourse.block.ModBlocks;
+import net.aiq9.kaupencourse.entity.ModEntities;
 import net.aiq9.kaupencourse.item.custom.*;
 import net.aiq9.kaupencourse.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -40,6 +41,8 @@ public class ModItems {
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
     public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc", new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
     public static final Item SPECTRE_STAFF = registerItem("spectre_staff", new Item(new Item.Settings().maxCount(1)));
+
+    public static final Item DODO_SPAWN_EGG = registerItem("dodo_spawn_egg", new SpawnEggItem(ModEntities.DODO, 0x465ae0, 0x545978, new Item.Settings()));
 
     //tools
     public static final Item FLUORITE_SWORD = registerItem("fluorite_sword",

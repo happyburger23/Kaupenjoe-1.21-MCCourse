@@ -10,6 +10,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
 import net.minecraft.util.Identifier;
 
+import java.util.Optional;
+
 public class BlockStateModelProvider extends FabricModelProvider {
     public BlockStateModelProvider(FabricDataOutput output) {
         super(output);
@@ -87,5 +89,7 @@ public class BlockStateModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FLUORITE_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.FLUORITE_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.FLUORITE_BOOTS, Models.GENERATED);
-    }
+
+        itemModelGenerator.register(ModItems.DODO_SPAWN_EGG,
+                new Model(Optional.of(Identifier.of("item/template_spawn_egg")), Optional.empty()));    }
 }
