@@ -15,6 +15,7 @@ import net.aiq9.kaupencourse.sound.ModSounds;
 import net.aiq9.kaupencourse.util.HammerUsageEvent;
 import net.aiq9.kaupencourse.villager.ModVillagers;
 import net.aiq9.kaupencourse.world.gen.ModWorldGen;
+import net.aiq9.kaupencourse.worldgen.ModEntitySpawns;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
@@ -75,10 +76,10 @@ public class KaupenCourse121 implements ModInitializer {
 		registerStrippables();
 		registerFlammables();
 
-
 		//Dodo Entity
 		ModEntities.registerEntities();
 		registerDodoAttributes();
+		ModEntitySpawns.addMobSpawns();
 	}
 
 	private static void registerDodoAttributes() {

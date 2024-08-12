@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ModPotions {
     public static final RegistryEntry<Potion> SLIMEY_POTION = registerPotion("slimey_potion",
-            new Potion(new StatusEffectInstance(ModEffects.SLIMEY, 200, 0)));
+            new Potion(new StatusEffectInstance(ModEffects.SLIMEY, 200, 0))); //200 ticks is 10 seconds
 
     //HELPER METHODS
     private static RegistryEntry<Potion> registerPotion(String name, Potion potion) {
